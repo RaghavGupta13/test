@@ -72,12 +72,6 @@ public class JavaApplication4
             System.out.print(arr[i]+" ");
     }
  
-    public static void main(String args[])
-    {
-  	JavaApplication4 yes = new JavaApplication4();
-        int arr[] = {1, 10, 7, 17, 8, 2, 15};
-        yes.QuickSort(arr, 0, arr.length-1);
-        yes.printArr(arr, arr.length);
-    }
+   
 }
 
